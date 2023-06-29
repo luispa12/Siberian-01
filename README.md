@@ -102,4 +102,4 @@ Bottom
 
 ## Bill of Material
 
-[Interactive BOM](https://esp-rs.github.io/esp-rust-board/)
+[Interactive BOM](https://github.com/luispa12/Siberian-01/tree/ca052e98b2679d36af08063e84189271c84d1010/docs/bom)

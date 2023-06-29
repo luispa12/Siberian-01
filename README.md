@@ -1,8 +1,8 @@
-![Logo](https://github.com/luispa12/Siberian-01/blob/135fdbe8fa3de1014e68ca1c31da84fb336b7c87/Logo%202.png)
+![Huskies' lab](https://github.com/luispa12/Siberian-01/blob/135fdbe8fa3de1014e68ca1c31da84fb336b7c87/Logo%202.png)
 
 ## Project Specification
 
-This board is based on the RP2040 microcontroler from the Raspberry foundation.
+This board is based on the RP2040 microcontroller from the Raspberry Foundation.
 
 ### SoC Features
 
@@ -14,7 +14,7 @@ This board is based on the RP2040 microcontroler from the Raspberry foundation.
 * Interpolator and integer divider peripherals
 * On-chip programmable LDO to generate core voltage
 * 2 on-chip PLLs to generate USB and core clocks
-* 30 GPIO pins, 4 of which can be used as analogue inputs
+* 30 GPIO pins, 4 of which can be used as analog inputs
 * Peripherals
   ◦ 2 UARTs
   ◦ 2 SPI controllers
@@ -83,8 +83,6 @@ For the complete description, see the [RP2040 DATASHEET](https://datasheets.rasp
 | 11         | IO8/SCL     | GPIO8  |
 | 12         | IO10/SDA    | GPIO10 |
 
-  * [1] Connected to LDO enable pin*
-  * [2] Connected to USB 5V*
 
 ## Project KiCad Libraries
 

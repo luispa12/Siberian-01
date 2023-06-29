@@ -1,4 +1,4 @@
-![Huskies' lab](https://github.com/luispa12/Siberian-01/blob/135fdbe8fa3de1014e68ca1c31da84fb336b7c87/Logo%202.png)
+![Huskies' lab](assets/Logo 2.png)
 
 ## Project Specification
 
@@ -42,7 +42,7 @@ For the complete description, see the [RP2040 DATASHEET](https://datasheets.rasp
 
 ### Pin Layout
 
-![Pin Layout](assets/rust_board_v1_pin-layout.png)
+![Pin Layout](assets/esquematico.jpg)
 
 
 #### Left Side

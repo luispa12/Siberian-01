@@ -100,4 +100,4 @@ Bottom
 
 ## Bill of Material
 
-[Interactive BOM](https://github.com/luispa12/Siberian-01/tree/ca052e98b2679d36af08063e84189271c84d1010/docs/bom/bom.html)
+[Interactive BOM](https://luispa12.github.io/siberian1_bom/)

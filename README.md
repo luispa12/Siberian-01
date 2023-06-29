@@ -94,11 +94,11 @@ For the complete description, see the [RP2040 DATASHEET](https://datasheets.rasp
 
 Top
 
-![TOP](assets/esp-rust-board_top.jpg)
+![TOP](assets/front_view.jpg)
 
 Bottom
 
-![BOT](assets/esp-rust-board_bot.jpg)
+![BOT](assets/bottom_view.jpg)
 
 ## Bill of Material
 

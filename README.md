@@ -2,44 +2,32 @@
 
 ## Project Specification
 
-This board is based on the ESP32-C3, and includes sensors, LEDs, buttons, a battery charger, and USB type-C connector.
+This board is based on the RP2040 microcontroler from the Raspberry foundation.
 
 ### SoC Features
 
-* IEEE 802.11 b/g/n-compliant
-* Bluetooth 5, Bluetooth mesh
-* 32-bit RISC-V single-core processor, up to 160MHz
-* 384 KB ROM
-* 400 KB SRAM (16 KB for cache)
-* 8 KB SRAM in RTC
-* 22 × programmable GPIOs
-* 3 × SPI
-* 2 × UART
-* 1 × I2C
-* 1 × I2S
-* 2 × 54-bit general-purpose timers
-* 3 × watchdog timers
-* 1 × 52-bit system timer
-* Remote Control Peripheral (RMT)
-* LED PWM controller (LEDC)
-* Full-speed USB Serial/JTAG controller
-* General DMA controller (GDMA)
-* 1 × TWAI®
-* 2 × 12-bit SAR ADCs, up to 6 channels
-* 1 × temperature sensor
+* Dual ARM Cortex-M0+ @ 133MHz
+* 264kB on-chip SRAM in six independent banks
+* Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus
+* DMA controller
+* Fully-connected AHB crossbar
+* Interpolator and integer divider peripherals
+* On-chip programmable LDO to generate core voltage
+* 2 on-chip PLLs to generate USB and core clocks
+* 30 GPIO pins, 4 of which can be used as analogue inputs
+* Peripherals
+  ◦ 2 UARTs
+  ◦ 2 SPI controllers
+  ◦ 2 I2C controllers
+  ◦ 16 PWM channels
+  ◦ USB 1.1 controller and PHY, with host and device support
+  ◦ 8 PIO state machines
 
-For the complete description, see the [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf).
+For the complete description, see the [RP2040 DATASHEET](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf).
 
-![Diagram](assets/rust_board_v1.2_diagram.png)
+![Diagram](assets/esquematico.jpg)
 
-### I2C Peripherals
 
-This board includes the following peripherals over the I2C bus:
-
-| Peripheral               | Part number | Reference                                                                                                      | Crate                                     | Address |
-| ------------------------ | ----------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------- |
-| IMU                      | ICM-42670-P | [Datasheet](https://invensense.tdk.com/download-pdf/icm-42670-p-datasheet/)                                    | [Link](https://crates.io/crates/icm42670) | 0x68    |
-| Temperature and Humidity | SHTC3       | [Datasheet](https://www.mouser.com/datasheet/2/682/Sensirion_04202018_HT_DS_SHTC3_Preliminiary_D2-1323493.pdf) | [Link](https://crates.io/crates/shtcx)    | 0x70    |
 
 #### I2C Bus Connection
 
@@ -48,20 +36,9 @@ This board includes the following peripherals over the I2C bus:
 | SDA    | GPIO10 |
 | SCL    | GPIO8  |
 
-### I/Os
-
-The following devices are connected through GPIO:
-
-| I/O Devices | GPIO  |
-| ----------- | ----- |
-| WS2812 LED  | GPIO2 |
-| LED         | GPIO7 |
-| Button/Boot | GPIO9 |
-
 ### Power
 
-* USB type-C (*no PD compatibility*).
-* Li-Ion battery charger.
+* USB Type B
 
 ### Pin Layout
 

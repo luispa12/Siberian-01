@@ -16,14 +16,14 @@ This board is based on the RP2040 microcontroller from the Raspberry Foundation.
 * 2 on-chip PLLs to generate USB and core clocks
 * 30 GPIO pins, 4 of which can be used as analog inputs
 * Peripherals
-  ◦ 2 UARTs
-  ◦ 2 SPI controllers
-  ◦ 2 I2C controllers
-  ◦ 16 PWM channels
-  ◦ USB 1.1 controller and PHY, with host and device support
-  ◦ 8 PIO state machines
+   2 UARTs
+   2 SPI controllers
+   2 I2C controllers
+   16 PWM channels
+   USB 1.1 controller and PHY, with host and device support
+   8 PIO state machines
 
-For the complete description, see the [RP2040 DATASHEET](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf).
+For the complete description of the microcontroller, see the [RP2040 DATASHEET](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf).
 
 ![Diagram](assets/esquematico.jpg)
 
@@ -86,7 +86,7 @@ For the complete description, see the [RP2040 DATASHEET](https://datasheets.rasp
 
 ## Project KiCad Libraries
 
-* [ESP32C3](https://github.com/espressif/kicad-libraries)
+* [Libraries]()
 
 ## Board Design
 

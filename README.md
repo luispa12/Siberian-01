@@ -3,6 +3,8 @@
 
 ## Project Specification
 
+[Link to the Github repository](https://github.com/luispa12/Siberian-01)
+
 This board is based on the RP2040 microcontroller from the Raspberry Foundation.
 
 ### SoC Features

@@ -87,7 +87,7 @@ For the complete description of the microcontroller, see the [RP2040 DATASHEET](
 
 ## Project KiCad Libraries
 
-* [Libraries]()
+* [Libraries](docs/bom/bom.html)
 
 ## Board Design
 

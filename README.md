@@ -87,7 +87,7 @@ For the complete description of the microcontroller, see the [RP2040 DATASHEET](
 
 ## Project KiCad Libraries
 
-* [Libraries](docs/bom/bom.html)
+* [Libraries]()
 
 ## Board Design
 
@@ -101,4 +101,4 @@ Bottom
 
 ## Bill of Material
 
-[Interactive BOM](https://luispa12.github.io/siberian1_bom/)
+[Interactive BOM](docs/bom/bom.html)

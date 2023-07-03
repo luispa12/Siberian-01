@@ -60,6 +60,8 @@ Pin Layou pending...
 
 
 #### Left Side
+
+
 | Pin number | SoC      | Description                                 |
 |------------|----------|---------                                    | 
 | 1          | 2        | GPIO0, SPI0 RX, UART0 TX, I2C0 SDA.         |
@@ -68,20 +70,20 @@ Pin Layou pending...
 | 4          | 5        | GPIO3, SPI0 TX, UART0 RTS, I2C1 SCL.        |
 | 5          | 6        | GPIO4, SPI0 RX, UART1 TX, I2C0 SDA.         |
 | 6          | 7        | GPIO5, SPI0 CSn, UART1 RX, I2C0 SCL.        |
-| 7          | --       | GND                                         |
+| 7          | --       | GND.                                        |
 | 8          | 8        | GPIO6, SPI0 SCK, UART1 CTS, I2C1 SDA.       |
 | 9          | 9        | GPIO7, SPI0 TX, UART1 RTS, I2C1 SCL.        |
 | 10         | 11       | GPIO8, SPI1 RX, UART1 TX, I2C0 SDA.         |
 | 11         | 12       | GPIO9, SPI1 CSn, UART1 RX, I2C0 SCL.        |
 | 12         | 13       | GPIO10, SPI1 SCK UART1 CTS I2C1 SDA.        |
 | 13         | 14       | GPIO11, SPI1 TX UART1 RTS I2C1 SCL.         |
-| 14         | --       | GND                                         |
+| 14         | --       | GND.                                        |
 | 15         | 15       | GPIO12, SPI1 RX, UART0 TX, I2C0 SDA.        |
 | 16         | 16       | GPIO13, SPI1 CSn, UART0 RX, I2C0 SCL.       |
 | 17         | 17       | GPIO14, SPI1 SCK, UART0 CTS, I2C1 SDA.      |
 | 18         | 18       | GPIO15, SPI1 TX, UART0 RTS, I2C1 SCL.       |
 | 19         | 27       | GPIO16, SPI0 RX, UART0 TX, I2C0 SDA.        |
-| 20         | --       | GND                                         |
+| 20         | --       | GND.                                        |
 
 
 
@@ -97,20 +99,20 @@ Pin Layou pending...
 | 24         | 31       | GPIO20, SPI0 RX, UART1 TX, I2C0 SDA, CLOCK GPIN0.  |
 | 25         | 32       | GPIO21, SPI0 CSn, UART1 RX, I2C0 SCL, CLOCK GPOUT0.|
 | 26         | 34       | GPIO22, SPI0 SCK, UART1 CTS, I2C1 SDA,CLOCK GPIN1. |
-| 27         | --       | GND                                                |
+| 27         | --       | GND.                                               |
 | 28         | 35       | GPIO23, SPI0 TX, UART1 RTS, I2C1 SCL, CLOCK GPOUT1.|
 | 29         | 36       | GPIO24, SPI1 RX, UART1 TX, I2C0 SDA,  CLOCK GPOUT2.|
 | 30         | 36       | GPIO25, SPI1 CSn, UART1 RX, I2C0 SCL, CLOCK GPOUT3.|
 | 31         | 38       | GPIO26\_ADC0, SPI1 SCK, UART1 CTS, I2C1 SDA.       |
 | 32         | 39       | GPIO27\_ADC1, SPI1 TX, UART1 RTS, I2C1 SCL.        |
 | 33         | 40       | GPIO28\_ADC2, SPI1 RX, UART0 TX, I2C0 SDA.         |
-| 34         | --       | GND                                                |
+| 34         | --       | GND.                                               |
 | 35         | 41       | GPIO29\_ADC3,SPI1 CSn, UART0 RX, I2C0 SCL.         |
 | 36         | 26       | RUN                                                |
 | 37         | --       | VBUS                                               |
 | 38         | --       | +3V3                                               |
-| 39         | --       | GND                                                |
-| 40         | --       | GND                                                |
+| 39         | --       | GND.                                               |
+| 40         | --       | GND.                                               |
 
 
 | Function       | SoC                                                        | 

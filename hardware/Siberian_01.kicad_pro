@@ -391,10 +391,10 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../docs/3D model/Siberian_01.step",
+      "vrml": "../docs/3D model/Siberian_01.wrl"
     },
     "page_layout_descr_file": ""
   },
